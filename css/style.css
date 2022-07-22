@@ -308,9 +308,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #FF9000;
+  background: #193168;
 }
-.fh5co-bg-dark .fh5co-heading h2 {
+.fh5co-bg-dark .fh5co-heading h2,
+.fh5co-bg-dark .fh5co-heading p{
   color: #fff !important;
 }
 
@@ -714,25 +715,27 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 270px;
+  height: 135px;
   width: 100%;
   display: table;
   overflow: hidden;
+  margin-bottom: -10px;
+  border-radius: 5px 5px 0 0;
 }
 @media screen and (max-width: 768px) {
   .work {
-    height: 400px;
+    height: 200px;
   }
 }
 @media screen and (max-width: 480px) {
   .work {
-    height: 270px;
+    height: 135px;
   }
 }
 .work .desc {
   display: table-cell;
   vertical-align: middle;
-  height: 270px;
+  height: 135px;
   background: #fff;
   opacity: 0;
   -webkit-transition: 0.3s;
@@ -750,11 +753,13 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
   color: #999999;
   font-size: 14px;
+  margin: 10px !important;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, 15px, 0);
   transform: translate3d(0, 15px, 0);
 }
+
 @media screen and (max-width: 768px) {
   .work .desc {
     opacity: 1;
@@ -803,12 +808,16 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #FF9000;
+  color: #193168;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
+}
+#fh5co-started .btn.btn-secondary {
+  background: #39569B;
+  color: #fff;
 }
 
 .fh5co-blog {
