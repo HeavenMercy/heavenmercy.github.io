@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #FF9000;
+  background: #193168;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #FF9000;
+  background: #193168;
 }
 
 ::selection {
   color: #fff;
-  background: #FF9000;
+  background: #193168;
 }
 
 #fh5co-header,
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #2686f3ba;
+  background: #193168ba;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: #193168;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: #39569B !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -533,7 +533,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #FF9000;
+  background-color: #9DB2E2;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -595,7 +595,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-body > p,
 .timeline-body > ul {
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .timeline-body > p + p {
@@ -1112,21 +1113,21 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #FF9000;
+  background: #39569B;
   color: #fff;
-  border: 2px solid #FF9000;
+  border: 2px solid #39569B;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ff9b1a !important;
-  border-color: #ff9b1a !important;
+  background: #9DB2E2 !important;
+  border-color: #9DB2E2 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #FF9000;
-  border: 2px solid #FF9000;
+  color: #39569B;
+  border: 2px solid #39569B;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #FF9000;
+  background: #39569B;
   color: #fff;
 }
 
